@@ -1,0 +1,64 @@
+.chatContainer {
+  max-width: 500px;
+  margin: 50px auto;
+  background: #f2f5fa;
+  padding: 25px;
+  border-radius: 12px;
+  font-family: sans-serif;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.chatBox {
+  max-height: 300px;
+  overflow-y: auto;
+  padding: 10px;
+  background: #fff;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.userMessage, .otherMessage {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 8px 0;
+  max-width: 75%;
+  text-align: left;
+}
+
+.userMessage {
+  background: #daf1da;
+  align-self: flex-end;
+}
+
+.otherMessage {
+  background: #e1e8f0;
+  align-self: flex-start;
+}
+
+.inputGroup {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.inputGroup input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.inputGroup button {
+  padding: 10px 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.inputGroup button:hover {
+  background: #0056b3;
+}

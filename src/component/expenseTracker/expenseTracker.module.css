@@ -1,0 +1,59 @@
+.expenseContainer {
+  max-width: 600px;
+  margin: 50px auto;
+  background: #f8f8f8;
+  padding: 30px;
+  border-radius: 12px;
+  font-family: sans-serif;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+
+.expenseForm {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.expenseForm input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.expenseForm button {
+  padding: 8px 14px;
+  font-size: 16px;
+  border: none;
+  background: #28a745;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.expenseForm button:hover {
+  background: #218838;
+}
+
+.expenseTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.expenseTable th, .expenseTable td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.expenseTable th {
+  background: #007bff;
+  color: white;
+}
+
+.expenseTable tr:nth-child(even) {
+  background: #f2f2f2;
+}

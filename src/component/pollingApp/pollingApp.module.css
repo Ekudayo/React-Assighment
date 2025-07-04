@@ -1,0 +1,70 @@
+.pollContainer {
+  max-width: 500px;
+  margin: 50px auto;
+  background: gray;
+  padding: 30px;
+  border-radius: 12px;
+  font-family: sans-serif;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+
+.formGroup {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.formGroup input {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.formGroup button {
+  padding: 8px 14px;
+  font-size: 16px;
+  border: none;
+  background: #007bff;
+  /* color: white; */
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.formGroup button:hover {
+  background: #0056b3;
+}
+
+.optionsList {
+  margin: 20px 0;
+}
+
+.optionItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border: 3px solid #ddd;
+}
+
+.optionItem button {
+  padding: 6px 12px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.optionItem button:hover {
+  background: #218838;
+}
+
+.optionItem span {
+  font-size: 16px;
+}

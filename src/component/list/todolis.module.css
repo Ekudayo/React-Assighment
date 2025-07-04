@@ -1,0 +1,81 @@
+.todoContainer {
+  max-width: 450px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background: #50263a;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: "Segoe UI", sans-serif;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form input {
+  flex: 1;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.form button {
+  padding: 12px 18px;
+  font-size: 16px;
+  border: none;
+  background: #4caf50;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background: #45a049;
+}
+
+.taskList {
+  list-style: none;
+  padding: 0;
+}
+
+.taskList li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  font-size: 16px;
+}
+
+.taskList input[type="checkbox"] {
+  margin-right: 12px;
+}
+
+.taskList button {
+  background: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.taskList button:hover {
+  background: #e53935;
+}
+
+.completedTask {
+  text-decoration: line-through;
+  color: #999;
+}
